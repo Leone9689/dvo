@@ -1,0 +1,39 @@
+<package>
+  <description brief="dvo">
+
+     dvo
+
+  </description>
+  <author>Leone</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/dvo</url>
+  <depend package="std_msgs"/>
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+  <depend package="rosbag"/>
+    
+  <depend package="pcl_ros"/>
+  <depend package="pcl_conversions"/>
+  <!-- <depend package="sophus"/> --> 
+
+  <!--<depend package="nodelet"/> -->
+  <depend package="tf"/>
+  <depend package="tf_conversions"/>
+  <depend package="eigen_conversions"/>
+  <depend package="dynamic_reconfigure" />
+   
+  <depend package="sensor_msgs"/>
+  <depend package="image_transport"/>
+  <depend package="message_filters"/>
+  <depend package="cv_bridge"/>
+  
+  <depend package="visualization_msgs"/>
+  <depend package="interactive_markers"/>
+  
+  <!--<rosdep name="eigen" /> -->
+  <rosdep name="tbb" />
+  <!-- <depend package="common_rosdeps" /> -->
+</package>
+
+
