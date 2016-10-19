@@ -1,3 +1,4 @@
+Indigo
 # Dense Visual Odometry (dvo)
 
 These packages provide an implementation of the rigid body motion estimation of an RGB-D camera from consecutive images.
